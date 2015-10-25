@@ -114,7 +114,7 @@ ul {
 
 #resetButton {
 	height: 2.5em;
-	background-color: green;
+	background-color: #55D29E;
 	border-style: none;
 	cursor: pointer;
 	display: inline-block;
