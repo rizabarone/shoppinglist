@@ -1,0 +1,128 @@
+body {
+	background-color: white;
+
+}
+
+head {
+	font-family: 'Varela', sans-serif;
+	font-size: 40px;
+}
+
+
+.top-section {
+    background-color: cyan;
+	position:fixed;
+	width: 100%;
+	z-index: 9999;
+    padding: 2em;
+
+}
+
+.top-section  img {
+	position:relative;
+	left: 600px;
+	margin-top: 50px;
+}
+
+.top-section h1 {
+	position:relative;
+	left: 570px;
+	margin-top: 10px;
+	color: blue;
+
+}
+
+.enter-section {
+	text-align: center;
+	width: 30em;
+	margin: 0 auto;
+	
+
+}
+
+.howto {
+	font-size: 40px;
+	font-style: 'Varela', sans=serif;
+	color: black;
+    font-size: 0.9em;
+    font-style: italic;
+    position: relative;
+    bottom: -400px;
+
+}
+
+#listForm {
+	margin-top: 1.5em;
+	position: relative;
+    bottom: -400px;
+}
+
+#newItem {
+    width: 70%;
+    height: 2.5em;
+    /* border: 1px solid red; */
+    padding-left: 1em;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+
+#addItem {
+    width: 5em;
+    height: 2em;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 3rem;
+    color: #55D29E;
+    margin-left: 0.5em;
+}
+
+hr {
+	border-bottom: 0.5px solid #000;
+	display: block;
+	max-width: 40em;
+	position: relative;
+    bottom: -500px;
+
+}
+
+.list-section {
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	width: 40em;
+	margin: 0 auto;
+	position: relative;
+    bottom: -500px;
+
+}
+
+#itemList {
+	padding: 0;
+
+}
+
+ul {
+	list-style: none;
+}
+
+.clear-section {
+	width: 30em;
+	margin: 0 auto;
+	position: relative;
+    bottom: -500px;
+}
+
+#resetButton {
+	height: 2.5em;
+	background-color: green;
+	border-style: none;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	position: relative;
+    bottom: -20px;
+}

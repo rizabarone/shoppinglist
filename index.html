@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	
+
+<body>
+	<header class="top-section">
+	 	<img src="images/shoppingcart.png" alt="shopping cart icon" height="130px" width="130px">
+	 	<h1>Shopping List</h1>	 
+    </header>
+
+    <section class ="enter-section">
+    	<p class="howto">
+    	Add the items you need below, check them off as you go and delete them when you're done.</p>
+    	<div id="listForm">
+    		<input type="text" maxlength="500" id="newItem" placeholder="Type item">
+    		<input type="submit" id="addItem" value="Add Item">
+    	</div>
+    </section>
+    <hr>
+    <section class="list-section">
+    	<ul id="itemList"></ul>
+    </section>
+    <section class="clear-section">
+    	<button type="reset" onclick id="resetButton">Clear Shopping List</button>
+    </section>
+    
+</body>
+</html>
