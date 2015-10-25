@@ -10,7 +10,7 @@ head {
 
 
 .top-section {
-    background-color: cyan;
+    background-color: #EA7AA2;
 	position:fixed;
 	width: 100%;
 	z-index: 9999;
@@ -24,11 +24,14 @@ head {
 	margin-top: 50px;
 }
 
-.top-section h1 {
+.title {
 	position:relative;
 	left: 570px;
-	margin-top: 10px;
-	color: blue;
+	margin-top: 0.5em;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+	letter-spacing: 0.1em;
 
 }
 
@@ -42,7 +45,7 @@ head {
 
 .howto {
 	font-size: 40px;
-	font-style: 'Varela', sans=serif;
+	font-style: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	color: black;
     font-size: 0.9em;
     font-style: italic;
@@ -73,7 +76,7 @@ head {
     background-color: transparent;
     border-style: none;
     border-radius: 3rem;
-    color: #55D29E;
+    color: #EA6192;
     margin-left: 0.5em;
 }
 
@@ -114,7 +117,7 @@ ul {
 
 #resetButton {
 	height: 2.5em;
-	background-color: #55D29E;
+	background-color: #A675DA;
 	border-style: none;
 	cursor: pointer;
 	display: inline-block;
