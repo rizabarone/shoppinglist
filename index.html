@@ -1,34 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Shopping List</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    
-	<link rel="stylesheet" href="css/style.css">
-	
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Shopping List</title>
+                    <link rel="stylesheet" href="css/normalize.css">
+                    <link rel="stylesheet" href="css/style.css">
+                	<script src="https://code.jquery.com/jquery.min.js"></script>
+                	<script src="js/shopping.js"></script>
+                </head>
+                <body>
+                	<header class="top-section">
+                	 	<img src="images/shoppingcart.svg" alt="shopping cart icon" height="130px" width="130px">
+                	 	<h1 class="title">Shopping List</h1>	 
+                    </header>
 
-<body>
-	<header class="top-section">
-	 	<img src="images/shoppingcart.svg" alt="shopping cart icon" height="130px" width="130px">
-	 	<h1 class="title">Shopping List</h1>	 
-    </header>
-
-    <section class ="enter-section">
-    	<p class="howto">
-    	Add the items you need below, check them off as you go and delete them when you're done.</p>
-    	<div id="listForm">
-    		<input type="text" maxlength="500" id="newItem" placeholder="Type item">
-    		<input type="submit" id="addItem" value="Add Item">
-    	</div>
-    </section>
-    <hr>
-    <section class="list-section">
-    	<ul id="itemList"></ul>
-    </section>
-    <section class="clear-section">
-    	<button type="reset" onclick id="resetButton">Clear Shopping List</button>
-    </section>
-    
-</body>
-</html>
+                    <section class ="enter-section">
+                    	<p class="howto">
+                    	Add the items you need below, check them off as you go and delete them when you're done.</p>
+                    	<div id="listForm">
+                    		<input type="text" maxlength="500" id="newItem" placeholder="Add item">
+                    		<input type="submit" id="addItem" value="Add Item">
+                    	</div>
+                    </section>
+                    <hr>
+                    <section class="list-section">
+                      <ul id="itemList">
+                        <li>
+                            <button class="checkbox"></button>
+                            <span class="list"></span>
+                            <button class="delete"></button>
+                        </li>
+                       </ul>
+                    </section>
+                    <section class="clear-section">
+                    <button type="reset" onclick id="resetButton">Clear Shopping List</button>
+                    </section>
+                    
+                </body>
+                </html>
